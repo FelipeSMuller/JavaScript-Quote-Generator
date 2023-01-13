@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: green;
+    background-image: url('https://virtualbackgrounds.site/wp-content/uploads/2020/07/bookshelf-at-dunster-house-library.jpg');
+
+}
+
+.container {
+    height: 400px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 200px;
+}
+
+.titulo {
+    background-color: white;
+    color: #e57928;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #e57928;
+    width: 50%;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.header {
+    height: 50%;
+    margin: 10px;
+    border: 3px solid #e57928;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.paragrafo {
+    height: 100px;
+    margin-top: 40px;
+}
+
+.frase {
+    text-align: center;
+    font-size: 20px;
+    width: 95%;
+    height: 40px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.header_dois {
+    height: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.autor {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #e57928;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+    position: relative;
+    left: 43%;
+}
+
+.botao {
+    padding: 10px;
+    color: white;
+    background-color: #e57928;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.botao:hover {
+    animation: animationButton .5s forwards;
+    cursor: pointer;
+}
+
+
+@keyframes animationButton {
+    from {
+        color: white;
+        background-color: #e57928;
+
+    }
+
+    to {
+        color: #e57928;
+        background-color: white;
+    }
+}
